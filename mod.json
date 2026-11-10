@@ -1,0 +1,19 @@
+{
+  "geode": "5.0.0",
+  "gd": "2.2081",
+  "version": "v1.0.0",
+  "id": "tuusuario.input-buffer",
+  "name": "Input Buffer",
+  "developer": "TuUsuario",
+  "description": "Guarda tu click si lo haces justo antes de aterrizar y lo ejecuta al tocar el suelo.",
+  "settings": {
+    "buffer-ms": {
+      "type": "int",
+      "name": "Buffer (ms)",
+      "description": "Cuánto tiempo se guarda un click hecho en el aire.",
+      "default": 60,
+      "min": 0,
+      "max": 200
+    }
+  }
+}
